@@ -31,7 +31,7 @@ const ShoppingList = () => {
             />
             <button type="submit">Add Item</button>
         </form>
-
+        
         <ul>
             {items.map((item, index) => (
                 <li key={index}>
