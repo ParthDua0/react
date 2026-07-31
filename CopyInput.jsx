@@ -1,6 +1,6 @@
-import { useState } from "react";
-import PopupContent from "./PopupContent";
-const CopyInput = () => {
+import { useState } from "react"; //importing useState
+import PopupContent from "./PopupContent";        //importing another .jsx file
+const CopyInput = () => {                    //writing the function
     const[inputValue,setInputValue]=useState('');
     const[copied,setCopied]=useState(false);
     const handleCopy=()=>{
