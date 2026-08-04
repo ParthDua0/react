@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState,useEffect } from "react";   //importing necessary libs
 const FetchDataEffect = () => {
     const [post,setPost] = useState([]);
 
@@ -18,4 +18,4 @@ const FetchDataEffect = () => {
   )
 }
 
-export default FetchDataEffect
+export default FetchDataEffect  // exporting the FetchDataEffect 
